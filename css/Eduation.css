@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 
+#Education {
+    display: none;
+}
+
 .design-section {
     display: flex;
     flex-direction: column;
@@ -14,6 +18,8 @@
 }
 
 .design-section h1 {
+    width: 100%;
+    text-align: center;
     margin-bottom: 25px;
 }
 

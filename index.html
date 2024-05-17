@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="css/BackToTop.css">
     <link rel="stylesheet" href="css/Footer.css">
 
+
     <script src="js/Home.js"></script>
     <script src="js/BackToTop.js"></script>
+    <script src="js/NavBar.js"></script>
 
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
 </head>
@@ -23,9 +25,13 @@
 <body>
     <section id="Home" class="HomePage">
         <div class="Home">
-            <ul>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Projects">Projects</a></li>
+            <ul id="NavBar">
+                <li><button id="EducationBtt">Projects</button></li>
+                <li><button id="ProjectsBtt">Education</button></li>
+            </ul>
+            <ul id="slide_nav">
+                <li id="slide_nav_1"></li>
+                <li id="slide_nav_2"></li>
             </ul>
             <img src="assets/pfp.png" id="tilt" alt="Avatar">
 
@@ -40,8 +46,8 @@
                 I wish to diversify my skillset and work on variety of projects while contributing to innovative
                 solutions in the tech world.
             </p>
-            <a
-                href="https://drive.google.com/uc?export=download&id=16Akw2x0GQ-OpRDTbPFG_IRS0ljDQMGqV"><button>Resume</button></a>
+            <a href="https://drive.google.com/uc?export=download&id=16Akw2x0GQ-OpRDTbPFG_IRS0ljDQMGqV"><button
+                    id="resume">Resume</button></a>
         </div>
     </section>
 
@@ -185,7 +191,7 @@
             title="linkedin">
             <i class="fa fa-linkedin"></i>
         </a>
-        <a class="github" href="" target="_blank" title="github">
+        <a class="github" href="https://github.com/BumpArya" target="_blank" title="github">
             <i class="fa fa-github"></i>
         </a>
     </div>

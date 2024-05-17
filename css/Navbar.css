@@ -3,26 +3,24 @@ ul {
     left: 50%;
 
     transform: translate(-50%);
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 250px;
     height: 10%;
     max-height: 50px;
 
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
     transition: opacity 0.15s linear;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.5);
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    margin-bottom: 25px;
+    border: 2px solid black;
+    border-bottom: none;
     opacity: 0.75;
-}
-
-ul:hover {
-    box-shadow: 0px 0px 0px;
-    opacity: 1;
 }
 
 ul li {
@@ -38,7 +36,41 @@ ul li {
     cursor: pointer;
 }
 
-ul li a {
-    text-decoration: none;
-    color: black;
+#slide_nav {
+    width: 250px;
+    height: 10px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    border: 2px solid black;
+    border-top: none;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 25px;
+}
+
+#slide_nav #slide_nav_1 {
+    background-color: red;
+    padding: 4.5px;
+    border-bottom-left-radius: 10px;
+}
+
+#slide_nav #slide_nav_2 {
+    background-color: rgb(255, 92, 92);
+    padding: 4.5px;
+    border-bottom-right-radius: 10px;
+}
+
+
+ul button {
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+
+ul button:hover {
+    cursor: pointer;
 }
