@@ -30,7 +30,7 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
     transition: 0.4s ease;
 }
 
