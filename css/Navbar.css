@@ -53,13 +53,13 @@ ul li {
 }
 
 #slide_nav #slide_nav_1 {
-    background-color: red;
+    background-color: gray;
     padding: 4.5px;
     border-bottom-left-radius: 10px;
 }
 
 #slide_nav #slide_nav_2 {
-    background-color: rgb(255, 92, 92);
+    background-color: white;
     padding: 4.5px;
     border-bottom-right-radius: 10px;
 }

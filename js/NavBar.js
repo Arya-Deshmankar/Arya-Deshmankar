@@ -6,8 +6,8 @@ function show_Pro() {
     if (y.display == "block") {
 
     } else {
-        a.style.backgroundColor = "red";
-        b.style.backgroundColor = "rgb(255, 92, 92)";
+        a.style.backgroundColor = "gray";
+        b.style.backgroundColor = "white";
         y.style.display = "block";
         x.style.display = "none";
     }
@@ -20,8 +20,8 @@ function show_Edu() {
     if (x.style.display == "block") {
 
     } else {
-        b.style.backgroundColor = "red";
-        a.style.backgroundColor = "rgb(255, 92, 92)";
+        b.style.backgroundColor = "gray";
+        a.style.backgroundColor = "white";
         x.style.display = "block";
         y.style.display = "none";
     }
